@@ -6,7 +6,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header  {
+/* Ajuste para o scrool mais flexível */
+html {
+    scroll-behavior: smooth;
+}
+
+/* MODIFICAÇÕES DO HEADER */
+header {
     height: 100px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.634);
@@ -15,6 +21,7 @@ header  {
     align-items: center;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 header h1 {
@@ -34,6 +41,7 @@ nav a:last-child {
     color: black;
 }
 
+/* FIM DAS MODIFICAÇÕES DO CABEÇALHO/INICIO DO HOME  */
 #home {
     background-color: #cfa29d;
 }
@@ -65,6 +73,107 @@ nav a:last-child {
     font-weight: bold;
 }
 
-.sobre {
+#sobre {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+    background: #583B37;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
 
+#sobre h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#sobre h3 {
+    text-align: center;
+}
+
+#sobre img {
+    width: 114px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 70px;
+}
+
+.container-sobre {
+    display: flex;
+}
+
+.valor1,
+.valor2,
+.valor3 {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.moment {
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    background: #9D6963;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.moment button {
+    width: 236px;
+    height: 56px;
+    background: #331F1E;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    margin-top: 20px;
+}
+
+.container-moment {
+    display: flex;
+}
+
+.moments1,
+.moments2,
+.moments3 {
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teacher {
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    background: #9d6963;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-teacher {
+    display: flex;
+    flex-direction: column;
+}
+.teacher h4 {
+    width: 792px;
+    height: 243px;
+    border-radius: 15px 0px 0px 0px;
+    background: #583B37;
+}
+.profe {
+    display: flex;
 }
