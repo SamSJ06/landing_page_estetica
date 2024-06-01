@@ -72,7 +72,7 @@ nav a:last-child {
     font-size: 36px;
     font-weight: bold;
 }
-
+/* Mudanças da seção sobre a estética */
 #sobre {
     width: 100%;
     height: auto;
@@ -104,11 +104,11 @@ nav a:last-child {
     position: relative;
     bottom: 70px;
 }
-
+/* Container contendo tudo do sobre */
 .container-sobre {
     display: flex;
 }
-
+/* Div de cada sobre  */
 .valor1,
 .valor2,
 .valor3 {
@@ -120,7 +120,7 @@ nav a:last-child {
     align-items: center;
     justify-content: space-between;
 }
-
+/* Classe da seção dos momentos da estética 3  */
 .moment {
     height: auto;
     padding: 10px 0px 10px 0px;
@@ -144,7 +144,7 @@ nav a:last-child {
 .container-moment {
     display: flex;
 }
-
+/* Div de cada momento */
 .moments1,
 .moments2,
 .moments3 {
@@ -155,19 +155,18 @@ nav a:last-child {
     flex-direction: column;
     align-items: center;
 }
-
+/* seção das professores do curso técnico de estética */
 .teacher {
     height: auto;
     padding: 10px 0px 10px 0px;
     background: #9d6963;
 
 }
-
+/* Div pai da seção das professoras do técnico */
 .container-teacher {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .teacher h2 {
@@ -186,15 +185,15 @@ nav a:last-child {
     padding: 30px 10px 30px 10px;
     border-radius: 15px;
     background: #583B37;
-
 }
-
+/* Caixa de texto de cada professora */
 .prof {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
 }
+/* Grade curricular do curso. Continuar na branch grade-curricular (Arthur está mexendo)  */
 #grade {
     width: 100%;
     height: auto;
@@ -205,18 +204,21 @@ nav a:last-child {
     align-items: center;
     text-align: justify;
 }
-.container-grade{
+
+.container-grade {
     display: flex;
     flex-wrap: wrap;
 }
-.box-grade{
+
+.box-grade {
     width: 366px;
     height: 391px;
-    border-radius: 33px;    
-     background: #331F1E;
-    margin: 10px 50px 10px 30px ;
+    border-radius: 33px;
+    background: #331F1E;
+    margin: 10px 50px 10px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
 }
+/* Fim das alterações da grade curricular  */
