@@ -54,7 +54,7 @@ nav a:last-child {
     height: 350px;
     width: 100%;
     color: #fff;
-    padding: 0 100px;
+    padding: 0px 100px;
     background-color: #9d6963;
     display: flex;
     gap: 20px;
@@ -72,6 +72,7 @@ nav a:last-child {
     font-size: 36px;
     font-weight: bold;
 }
+
 /* Mudanças da seção sobre a estética */
 #sobre {
     width: 100%;
@@ -104,15 +105,17 @@ nav a:last-child {
     position: relative;
     bottom: 70px;
 }
+
 /* Container contendo tudo do sobre */
 .container-sobre {
     display: flex;
 }
+
 /* Div de cada sobre  */
 .valor1,
 .valor2,
 .valor3 {
-    width: 500px;
+    width: 33%;
     height: auto;
     padding: 10px;
     display: flex;
@@ -120,6 +123,7 @@ nav a:last-child {
     align-items: center;
     justify-content: space-between;
 }
+
 /* Classe da seção dos momentos da estética 3  */
 .moment {
     height: auto;
@@ -144,17 +148,18 @@ nav a:last-child {
 .container-moment {
     display: flex;
 }
+
 /* Div de cada momento */
 .moments1,
 .moments2,
 .moments3 {
-    width: 500px;
+    width: 33%;
     height: auto;
-    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 /* seção das professores do curso técnico de estética */
 .teacher {
     height: auto;
@@ -162,6 +167,7 @@ nav a:last-child {
     background: #9d6963;
 
 }
+
 /* Div pai da seção das professoras do técnico */
 .container-teacher {
     display: flex;
@@ -182,10 +188,11 @@ nav a:last-child {
     width: 792px;
     height: auto;
     text-align: justify;
-    padding: 30px 10px 30px 10px;
+    padding: 30px 0px 30px 0px;
     border-radius: 15px;
     background: #583B37;
 }
+
 /* Caixa de texto de cada professora */
 .prof {
     display: flex;
@@ -193,6 +200,7 @@ nav a:last-child {
     justify-content: space-around;
     text-align: center;
 }
+
 /* Grade curricular do curso. Continuar na branch grade-curricular (Arthur está mexendo)  */
 #grade {
     width: 100%;
@@ -221,4 +229,87 @@ nav a:last-child {
     align-items: center;
     text-align: justify;
 }
+
 /* Fim das alterações da grade curricular  */
+/* Inicio das alterações da seção da clinica  */
+#clinic {
+    width: 100%;
+    height: 800px;
+    background: #9d6963;
+    /* Fundo temporário pra ficar melhor de mexer no css inteiro  */
+}
+
+#clinic h2 {
+    font-size: 25px;
+    color: #331F1F;
+}
+
+#clinic h3 {
+    font-size: 20px;
+    color: #D9D9D9
+}
+
+#clinic button {
+    width: 171px;
+    height: 50px;
+    border-radius: 40px;
+    background: #9f423d;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-clinic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bars {
+    width: auto;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first {
+    width: 300px;
+    rotate: 70deg;
+    border-color: #FFFFFF;
+}
+
+.second {
+    width: 300px;
+    rotate: -70deg;
+    border-color: #FFFFFF;
+    position: relative;
+    top: 280px;
+}
+
+.sobre-clinic {
+    width: auto;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.proced-clinic {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.proced-clinic h2,
+.proced-clinic h3 {
+    width: 500px;
+    margin: 10px;
+}
