@@ -216,6 +216,7 @@ nav a:last-child {
 .container-grade {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box-grade {
@@ -236,6 +237,11 @@ nav a:last-child {
     width: 100%;
     height: 800px;
     background: #9d6963;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self:center ;
     /* Fundo temporário pra ficar melhor de mexer no css inteiro  */
 }
 
@@ -270,18 +276,21 @@ nav a:last-child {
 }
 
 .bars {
-    width: auto;
+    width: 5%;
     height: 100%;
-    margin: auto;
+    margin-right: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .first {
     width: 300px;
-    rotate: 70deg;
     border-color: #FFFFFF;
+    position: relative;
+    bottom: 140px;
+    rotate: 70deg;
 }
 
 .second {
@@ -289,27 +298,48 @@ nav a:last-child {
     rotate: -70deg;
     border-color: #FFFFFF;
     position: relative;
-    top: 280px;
+    top: 140px;
 }
 
 .sobre-clinic {
-    width: auto;
+    width: 40%;
     float: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-.proced-clinic {
-    width: auto;
+.sobre-clinic h3{
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
+}
+.proced-clinic {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
 }
 
 .proced-clinic h2,
 .proced-clinic h3 {
-    width: 500px;
+    gap: 2rem;
     margin: 10px;
+    text-align: justify;
+}
+.proced-clinic h3 {
+    display: flex;
+}
+.background-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 85px;
+    border-radius: 50%;
+    background: #C6AC8D;
+}
+.background-img img {
+    width: 50px;
+    height: 50px;
+    background: none;
 }
