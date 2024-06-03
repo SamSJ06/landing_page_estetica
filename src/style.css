@@ -226,6 +226,10 @@ nav a:last-child {
 }
 
 .box-grade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 366px;
     height: 391px;
     box-shadow: 5px 6px 5px 0px rgba(39, 26, 25, 0.4);
@@ -266,7 +270,7 @@ nav a:last-child {
     color: rgb(252, 247, 236);
     transition: 0.2s;
     cursor: pointer ;
-
+}
 /* Fim das alterações da grade curricular  */
 /* Inicio das alterações da seção da clinica  */
 #clinic {
