@@ -54,7 +54,7 @@ nav a:last-child {
     height: 350px;
     width: 100%;
     color: #fff;
-    padding: 0 100px;
+    padding: 0px 100px;
     background-color: #9d6963;
     display: flex;
     gap: 20px;
@@ -73,6 +73,7 @@ nav a:last-child {
     font-weight: bold;
 }
 
+/* Mudanças da seção sobre a estética */
 #sobre {
     width: 100%;
     height: auto;
@@ -105,14 +106,16 @@ nav a:last-child {
     bottom: 70px;
 }
 
+/* Container contendo tudo do sobre */
 .container-sobre {
     display: flex;
 }
 
+/* Div de cada sobre  */
 .valor1,
 .valor2,
 .valor3 {
-    width: 500px;
+    width: 33%;
     height: auto;
     padding: 10px;
     display: flex;
@@ -121,6 +124,7 @@ nav a:last-child {
     justify-content: space-between;
 }
 
+/* Classe da seção dos momentos da estética 3  */
 .moment {
     height: auto;
     padding: 10px 0px 10px 0px;
@@ -145,17 +149,18 @@ nav a:last-child {
     display: flex;
 }
 
+/* Div de cada momento */
 .moments1,
 .moments2,
 .moments3 {
-    width: 500px;
+    width: 33%;
     height: auto;
-    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* seção das professores do curso técnico de estética */
 .teacher {
     height: auto;
     padding: 10px 0px 10px 0px;
@@ -163,11 +168,11 @@ nav a:last-child {
 
 }
 
+/* Div pai da seção das professoras do técnico */
 .container-teacher {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .teacher h2 {
@@ -183,12 +188,12 @@ nav a:last-child {
     width: 792px;
     height: auto;
     text-align: justify;
-    padding: 30px 10px 30px 10px;
+    padding: 30px 0px 30px 0px;
     border-radius: 15px;
     background: #583B37;
-
 }
 
+/* Caixa de texto de cada professora */
 .prof {
     display: flex;
     flex-direction: row;
@@ -228,11 +233,8 @@ nav a:last-child {
     background: #331F1E;
     margin: 10px 50px 10px 30px ;
     padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
 }
+
 
 .box-grade > h2 {
     color: white;
@@ -264,4 +266,117 @@ nav a:last-child {
     color: rgb(252, 247, 236);
     transition: 0.2s;
     cursor: pointer ;
+
+/* Fim das alterações da grade curricular  */
+/* Inicio das alterações da seção da clinica  */
+#clinic {
+    width: 100%;
+    height: 800px;
+    background: #9d6963;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self:center ;
+    /* Fundo temporário pra ficar melhor de mexer no css inteiro  */
+}
+
+#clinic h2 {
+    font-size: 25px;
+    color: #331F1F;
+}
+
+#clinic h3 {
+    font-size: 20px;
+    color: #D9D9D9
+}
+
+#clinic button {
+    width: 171px;
+    height: 50px;
+    border-radius: 40px;
+    background: #9f423d;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-clinic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bars {
+    width: 5%;
+    height: 100%;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first {
+    width: 300px;
+    border-color: #FFFFFF;
+    position: relative;
+    bottom: 140px;
+    rotate: 70deg;
+}
+
+.second {
+    width: 300px;
+    rotate: -70deg;
+    border-color: #FFFFFF;
+    position: relative;
+    top: 140px;
+}
+
+.sobre-clinic {
+    width: 40%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sobre-clinic h3{
+    display: flex;
+}
+.proced-clinic {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.proced-clinic h2,
+.proced-clinic h3 {
+    gap: 2rem;
+    margin: 10px;
+    text-align: justify;
+}
+
+.proced-clinic h3 {
+    display: flex;
+}
+.background-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 85px;
+    border-radius: 50%;
+    background: #C6AC8D;
+}
+.background-img img {
+    width: 50px;
+    height: 50px;
+    background: none;
 }
