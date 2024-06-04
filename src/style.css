@@ -86,30 +86,41 @@ nav a:last-child {
 }
 
 #sobre h2 {
+    font-size: 30px;
     display: flex;
     justify-content: center;
 }
 
 #sobre h3 {
+    font-size: 26px;
     text-align: center;
 }
 
+#sobre p {
+    font-size: 20px;
+}
+
+#sobre h3,
+#sobre p {
+    margin: 20px;
+}
+
 .background-sbr {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 50%;
+    background: #C6AC8D;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: #C6AC8D;
 }
 
 #sobre img {
     width: 114px;
     height: auto;
-    padding: 0;
-    margin: 0;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -173,7 +184,7 @@ nav a:last-child {
 /* seção das professores do curso técnico de estética */
 .teacher {
     height: auto;
-    padding: 10px 0px 10px 0px;
+    padding: 30px 0px 30px 0px;
     background: #FFFFFF;
 
 }
@@ -195,7 +206,7 @@ nav a:last-child {
 }
 
 .teacher h4 {
-    width: 792px;
+    width: 35%;
     height: auto;
     text-align: justify;
     padding: 30px 0px 30px 0px;
@@ -311,18 +322,32 @@ nav a:last-child {
     height: 50px;
     border-radius: 40px;
     background: #9f423d;
-    color: white;
+    color: black;
     font-size: 18px;
     margin-top: 30px;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+    transition: 0.2s all ease;
 }
 
 #clinic button img {
     width: 25px;
+    /* filter: brightness(0) saturate(100%) invert(99%) sepia(71%) saturate(234%) hue-rotate(26deg) brightness(97%) contrast(94%); */
+}
+
+#clinic button:hover {
+    background-color: rgb(106, 86, 48);
+    color: rgb(252, 247, 236);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#clinic button:hover img {
+    transition: 0.5s;
     filter: brightness(0) saturate(100%) invert(99%) sepia(71%) saturate(234%) hue-rotate(26deg) brightness(97%) contrast(94%);
+
 }
 
 #clinic button span {
@@ -404,14 +429,12 @@ nav a:last-child {
 }
 
 .background-img {
+    border-radius: 50%;
+    background: #C6AC8D;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 350px;
-    height: auto;
-    border-radius: 50%;
-    background: #C6AC8D;
 }
 
 .background-img img {
