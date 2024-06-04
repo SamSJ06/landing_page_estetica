@@ -69,7 +69,7 @@ nav a:last-child {
 }
 
 .mission p {
-    font-size: 36px;
+    font-size: 52px;
     font-weight: bold;
 }
 
@@ -78,7 +78,7 @@ nav a:last-child {
     width: 100%;
     height: auto;
     padding: 20px 0px 20px 0px;
-    background: #583B37;
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,6 +94,17 @@ nav a:last-child {
     text-align: center;
 }
 
+.background-sbr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #C6AC8D;
+}
+
 #sobre img {
     width: 114px;
     height: auto;
@@ -102,8 +113,7 @@ nav a:last-child {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: relative;
-    bottom: 70px;
+    filter: brightness(0);
 }
 
 /* Container contendo tudo do sobre */
@@ -127,7 +137,7 @@ nav a:last-child {
 /* Classe da seção dos momentos da estética 3  */
 .moment {
     height: auto;
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 20px 0px;
     background: #9D6963;
     display: flex;
     flex-direction: column;
@@ -164,7 +174,7 @@ nav a:last-child {
 .teacher {
     height: auto;
     padding: 10px 0px 10px 0px;
-    background: #9d6963;
+    background: #FFFFFF;
 
 }
 
@@ -212,20 +222,20 @@ nav a:last-child {
     text-align: justify;
 }
 
-#grade > h2 {
+#grade>h2 {
     color: whitesmoke;
     font-size: 2rem;
     padding: 30px 0px 30px 0px;
 }
 
-.container-grade{
+.container-grade {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 18px;
 }
 
-.box-grade{
+.box-grade {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -233,20 +243,20 @@ nav a:last-child {
     width: 366px;
     height: 391px;
     box-shadow: 5px 6px 5px 0px rgba(39, 26, 25, 0.4);
-    border-radius: 33px;    
+    border-radius: 33px;
     background: #331F1E;
-    margin: 10px 50px 10px 30px ;
+    margin: 10px 50px 10px 30px;
     padding: 30px;
 }
 
 
-.box-grade > h2 {
+.box-grade>h2 {
     color: white;
     padding-bottom: 15px;
 }
 
 
-.box-grade > h3 {
+.box-grade>h3 {
     width: 310px;
     padding-top: 30px;
     font-size: 1rem;
@@ -255,7 +265,7 @@ nav a:last-child {
     color: rgba(255, 255, 255, 0.792);
 }
 
-.box-grade > button {
+.box-grade>button {
     background-color: wheat;
     color: #1d1212;
     font-size: 1.2rem;
@@ -265,12 +275,13 @@ nav a:last-child {
     border-radius: 30px;
 }
 
-.box-grade > button:hover{
+.box-grade>button:hover {
     background-color: rgb(106, 86, 48);
     color: rgb(252, 247, 236);
     transition: 0.2s;
-    cursor: pointer ;
+    cursor: pointer;
 }
+
 /* Fim das alterações da grade curricular  */
 /* Inicio das alterações da seção da clinica  */
 #clinic {
@@ -281,7 +292,7 @@ nav a:last-child {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    align-self:center ;
+    align-self: center;
     /* Fundo temporário pra ficar melhor de mexer no css inteiro  */
 }
 
@@ -301,11 +312,22 @@ nav a:last-child {
     border-radius: 40px;
     background: #9f423d;
     color: white;
-    font-size: 17px;
+    font-size: 18px;
+    margin-top: 30px;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+#clinic button img {
+    width: 25px;
+    filter: brightness(0) saturate(100%) invert(99%) sepia(71%) saturate(234%) hue-rotate(26deg) brightness(97%) contrast(94%);
+}
+
+#clinic button span {
+    padding-left: 1.2rem;
+
 }
 
 .container-clinic {
@@ -313,6 +335,25 @@ nav a:last-child {
     align-items: center;
     justify-content: center;
 
+}
+
+.sobre-clinic {
+    width: 40%;
+    margin-left: 50px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.sobre-clinic h2,
+.sobre-clinic h3 {
+    margin: 10px;
+}
+
+.sobre-clinic h3 {
+    display: flex;
 }
 
 .bars {
@@ -341,16 +382,7 @@ nav a:last-child {
     top: 140px;
 }
 
-.sobre-clinic {
-    width: 40%;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.sobre-clinic h3{
-    display: flex;
-}
+
 .proced-clinic {
     width: 55%;
     display: flex;
@@ -364,21 +396,24 @@ nav a:last-child {
 .proced-clinic h3 {
     gap: 2rem;
     margin: 10px;
-    text-align: justify;
+    text-align: start;
 }
 
 .proced-clinic h3 {
     display: flex;
 }
+
 .background-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 85px;
+    flex-wrap: wrap;
+    width: 350px;
+    height: auto;
     border-radius: 50%;
     background: #C6AC8D;
 }
+
 .background-img img {
     width: 50px;
     height: 50px;
