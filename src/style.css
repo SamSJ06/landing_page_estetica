@@ -209,9 +209,10 @@ nav a:last-child {
     width: 35%;
     height: auto;
     text-align: justify;
-    padding: 30px 0px 30px 0px;
+    padding: 20px 10px 20px 10px;
     border-radius: 15px;
     background: #583B37;
+    color: #b2b2b2;
 }
 
 /* Caixa de texto de cada professora */
@@ -259,7 +260,10 @@ nav a:last-child {
     margin: 10px 50px 10px 30px;
     padding: 30px;
 }
-
+.box-grade>p {
+    color: white;
+    padding-bottom: 15px;
+}
 
 .box-grade>h2 {
     color: white;
@@ -429,12 +433,15 @@ nav a:last-child {
 }
 
 .background-img {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background: #C6AC8D;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .background-img img {
