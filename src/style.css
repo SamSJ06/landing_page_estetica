@@ -27,19 +27,36 @@ header {
 header h1 {
     margin-left: 30px;
     color: #caa8cf;
+    font-size: 40px;
 }
 
 nav a {
     margin-right: 30px;
     color: #caa8cf;
+    font-size: 22px;
 }
 
 nav a:last-child {
     border-radius: 30px;
-    padding: 4px 10px;
+    padding: 5px 15px;
     background-color: #caa8cf;
     color: black;
 }
+nav a:hover {
+    margin-right: 30px;
+    color: white;
+    font-size: 22px;
+    transition: 0.8s;
+}
+
+nav a:last-child:hover {
+    border-radius: 30px;
+    padding: 5px 15px;
+    background-color:black ;
+    color: #caa8cf;
+    transition: 0.8s;
+}
+
 
 /* FIM DAS MODIFICAÇÕES DO CABEÇALHO/INICIO DO HOME  */
 #home {
@@ -449,3 +466,4 @@ nav a:last-child {
     height: 50px;
     background: none;
 }
+

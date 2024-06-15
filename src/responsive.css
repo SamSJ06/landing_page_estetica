@@ -1,0 +1,113 @@
+#sidebar{
+    position: fixed;
+}
+#checkbox-menu{
+    position: absolute;
+    opacity: 0;
+}
+
+label{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}
+label span{
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #ffffff;
+    transition: 0.5s ease-in-out;
+}
+label span:nth-child(1){
+    top: 0;
+}
+label span:nth-child(2){
+    top: 8px;
+}
+label span:nth-child(3){
+    top: 16px;
+}
+#checkbox-menu:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 8px;
+}
+#checkbox-menu:checked + label span:nth-child(2){
+    opacity: 0;
+}
+#checkbox-menu:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top: 8px;
+}
+#sidebar.close-sidebar{
+    min-width: 0;
+}
+.cor{
+    background-color:rgba(0, 0, 0, 0.634)#161616;
+    width: 100%;
+    position: fixed;
+}
+
+@media screen and (max-width: 1200px){
+       /* hamburgue do menu lateral */
+    #sidebar{
+        width: 220px;
+   }
+    .cor{
+        width: 20px;
+        z-index: 2;
+        position: fixed;
+    }
+    .barfechar{
+        opacity: 0;
+        transition: 0.5s;
+    }
+    label{
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 32px;
+        width: 40px;
+        visibility: visible;
+        margin: 10px;
+    }
+    /* menu lateral */
+    header {
+        height: 100vh;
+        width: 40%;
+        background-color: rgba(0, 0, 0, 0.634);
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        transition: 0.8s;
+        justify-content: space-around;
+    }
+    .menuabe{
+        transition: 0.8s;
+        position: fixed;
+    }
+    
+    header h1 {
+        margin-left: 10px;
+        color: #caa8cf;
+        font-size: 40px;
+    }
+    
+    nav a {
+        color: #caa8cf;
+        font-size: 22px;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    nav{
+       text-align: left;
+       display:contents;
+    }
+
+    
+}
