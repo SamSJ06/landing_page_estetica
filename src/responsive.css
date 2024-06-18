@@ -1,11 +1,8 @@
-#sidebar{
-    position: fixed;
-}
+
 #checkbox-menu{
     position: absolute;
     opacity: 0;
 }
-
 label{
     cursor: pointer;
     position: relative;
@@ -43,29 +40,27 @@ label span:nth-child(3){
     transform: rotate(45deg);
     top: 8px;
 }
-#sidebar.close-sidebar{
-    min-width: 0;
-}
-.cor{
-    background-color:rgba(0, 0, 0, 0.634)#161616;
-    width: 100%;
-    position: fixed;
-}
+
 
 @media screen and (max-width: 1200px){
-       /* hamburgue do menu lateral */
+       /* hamburgue do menu lateral 
     #sidebar{
         width: 220px;
+        position: fixed;
+        top: 1;
+        left: 1;
    }
     .cor{
         width: 20px;
-        z-index: 2;
+        z-index: 3;
         position: fixed;
+        top: 1;
+        left: 1;
     }
     .barfechar{
         opacity: 0;
         transition: 0.5s;
-    }
+    }*/
     label{
         cursor: pointer;
         position: relative;
@@ -79,16 +74,22 @@ label span:nth-child(3){
     header {
         height: 100vh;
         width: 40%;
+        position: fixed;
+        top: 1;
+        left: 1;
         background-color: rgba(0, 0, 0, 0.634);
-        z-index: 1;
+        z-index: 2;
         display: flex;
         flex-direction: column;
         transition: 0.8s;
         justify-content: space-around;
+        visibility: hidden;
     }
     .menuabe{
         transition: 0.8s;
         position: fixed;
+        top: 1;
+        left: 1;
     }
     
     header h1 {
@@ -107,7 +108,63 @@ label span:nth-child(3){
     nav{
        text-align: left;
        display:contents;
+       position: fixed;
+       top: 1;
+       left: 1;
+    }
+    .mission p {
+        font-size: 35px;
+        font-weight: bold;
     }
 
+    #sobre {
+        width: 100%;
+        height: auto;
+        padding: 10px 10px 10px 10px;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+    #sobre h2 {
+        font-size: 20px;
+    }
+    #sobre h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+    #sobre p {
+        font-size: 10px;
+    }
+    #sobre h3,
+    #sobre p {
+        margin: 5px;
+    }
+    .background-sbr {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+    #sobre img {
+        width: 50px;
+    }
+    .box-moment {
+        width: 266px;
+        height: 291px;
+        box-shadow: 5px 6px 5px 0px rgba(39, 26, 25, 0.4);
+        border-radius: 33px;
+        background: #331F1E;
+        margin: 10px 30px 10px 30px;
+        padding: 20px;
+    }
+    .moment button {
+        width: 166px;
+        height: 90px;
+        background: #b49c9b;
+        color: white;
+        border-radius: 33px;
+        border: none;
+        margin-top: 10px;
+    }
     
 }

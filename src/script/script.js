@@ -1,4 +1,4 @@
-function abrirMenu() {
+/*function abrirMenu() {
     const menu = document.querySelector("aside.sidebar");
     const Button = document.getElementById("checkbox-menu");
     if (menu.classList.contains("barfechar")) {

@@ -119,7 +119,7 @@ nav a:last-child:hover {
 
 #sobre h3,
 #sobre p {
-    margin: 20px;
+    margin: 10px;
 }
 
 .background-sbr {
@@ -185,8 +185,23 @@ nav a:last-child:hover {
 
 .container-moment {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
 }
-
+.box-moment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 366px;
+    height: 391px;
+    box-shadow: 5px 6px 5px 0px rgba(39, 26, 25, 0.4);
+    border-radius: 33px;
+    background: #331F1E;
+    margin: 10px 50px 10px 30px;
+    padding: 30px;
+}
 /* Div de cada momento */
 .moments1,
 .moments2,
