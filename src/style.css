@@ -11,6 +11,15 @@ html {
     scroll-behavior: smooth;
 }
 
+/* 
+.banner {
+    height: 1000px;
+    background-image: url(img/WhatsApp\ Image\ 2024-07-03\ at\ 20.35.52.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+} */
+/* Estilização para o paralax quando tivermos a imagem. */
 /* MODIFICAÇÕES DO HEADER */
 header {
     height: 100px;
@@ -42,6 +51,7 @@ nav a:last-child {
     background-color: #caa8cf;
     color: black;
 }
+
 nav a:hover {
     margin-right: 30px;
     color: white;
@@ -52,7 +62,7 @@ nav a:hover {
 nav a:last-child:hover {
     border-radius: 30px;
     padding: 5px 15px;
-    background-color:black ;
+    background-color: black;
     color: #caa8cf;
     transition: 0.8s;
 }
@@ -63,9 +73,9 @@ nav a:last-child:hover {
     background-color: #cfa29d;
 }
 
-.banner {
+/* .banner {
     height: 500px;
-}
+} */
 
 .mission {
     height: 350px;
@@ -189,6 +199,7 @@ nav a:last-child:hover {
     justify-content: center;
     gap: 18px;
 }
+
 .box-moment {
     display: flex;
     flex-direction: column;
@@ -202,6 +213,7 @@ nav a:last-child:hover {
     margin: 10px 50px 10px 30px;
     padding: 30px;
 }
+
 /* Div de cada momento */
 .moments1,
 .moments2,
@@ -292,6 +304,7 @@ nav a:last-child:hover {
     margin: 10px 50px 10px 30px;
     padding: 30px;
 }
+
 .box-grade>p {
     color: white;
     padding-bottom: 15px;
@@ -481,4 +494,3 @@ nav a:last-child:hover {
     height: 50px;
     background: none;
 }
-
