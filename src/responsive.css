@@ -70,7 +70,7 @@ label span:nth-child(3){
         visibility: visible;
         margin: 10px;
     }
-    /* menu lateral */
+    /* Segue a ordem no css principal */
     header {
         height: 100vh;
         width: 40%;
@@ -130,27 +130,27 @@ label span:nth-child(3){
         font-size: 20px;
     }
     #sobre h3 {
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
     }
     #sobre p {
-        font-size: 10px;
+        font-size: 7px;
     }
     #sobre h3,
     #sobre p {
         margin: 5px;
     }
     .background-sbr {
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
         margin: 10px;
     }
     #sobre img {
-        width: 50px;
+        width: 30px;
     }
     .box-moment {
-        width: 266px;
-        height: 291px;
+        width: 210px;
+        height: 235px;
         box-shadow: 5px 6px 5px 0px rgba(39, 26, 25, 0.4);
         border-radius: 33px;
         background: #331F1E;
@@ -166,5 +166,210 @@ label span:nth-child(3){
         border: none;
         margin-top: 10px;
     }
+    .box-moment h3,
+    .box-moment p{
+        font-size: 10px;
+    }
+    .teacher h4 {
+        width: 30%;
+        height: auto;
+        text-align: justify;
+        padding: 20px 10px 20px 10px;
+        border-radius: 15px;
+        background: #583B37;
+        color: #b2b2b2;
+        font-size: 10px;
+    }
+    .prof {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .box-grade {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 190px;
+        box-shadow: 5px 6px 5px 0px rgba(39, 26, 25, 0.4);
+        border-radius: 33px;
+        background: #331F1E;
+        margin: 0px 0px 0px 0px;
+        
+    }
+    .box-grade>h2 {
+        color: white;
+        padding-bottom: 5px;
+        font-size: 9px;
+    }    
+    .box-grade>h3 {
+        width: 135px;
+        padding-top: 15px;
+        font-size: 7px;
+        font-weight: 300px;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.792);
+    }
+    .box-grade>button {
+        background-color: wheat;
+        color: #1d1212;
+        font-size: 11px;
+        margin-top: 7px;
+        padding: 5px;
+        border: none;
+        border-radius: 30px;
+    }
+    #clinic {
+        width: 100%;
+        height: 100%;
+        background: #9d6963;
+        /* Fundo temporário pra ficar melhor de mexer no css inteiro  */
+    }
     
+    #clinic h2 {
+        font-size: 20px;
+        color: #331F1F;
+    }
+    
+    #clinic h3 {
+        font-size: 10px;
+        color: #D9D9D9
+    }
+    
+    #clinic button {
+        width: 150px;
+        height: 30px;
+        border-radius: 40px;
+        background: #9f423d;
+        color: black;
+        font-size: 18px;
+        margin-top: 40px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        transition: 0.2s all ease;
+    }
+    
+    #clinic button img {
+        width: 20px;
+        /* filter: brightness(0) saturate(100%) invert(99%) sepia(71%) saturate(234%) hue-rotate(26deg) brightness(97%) contrast(94%); */
+    }
+    
+    #clinic button:hover {
+        background-color: rgb(106, 86, 48);
+        color: rgb(252, 247, 236);
+        transition: 0.2s;
+        cursor: pointer;
+    }
+    
+    #clinic button:hover img {
+        transition: 0.5s;
+        filter: brightness(0) saturate(100%) invert(99%) sepia(71%) saturate(234%) hue-rotate(26deg) brightness(97%) contrast(94%);
+    
+    }
+    
+    #clinic button span {
+        padding-left: 1.2rem;
+    
+    }
+    
+    .container-clinic {
+        display: inline;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .sobre-clinic {
+        width: 90%;
+        margin-left: 10px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .sobre-clinic h2,
+    .sobre-clinic h3 {
+        margin: 10px;
+    }
+    
+    .sobre-clinic h3 {
+        display: flex;
+    }
+    
+    .bars {
+        width:100%;
+        height: 100%;
+        margin-right: 10px;
+        display: flex;
+        padding-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .first {
+        width: 50%;
+        border-color: #FFFFFF;
+        position: relative;
+        bottom: 10px;
+        top: 10px;
+        rotate: 10deg;
+        left: -90px;
+    }
+    
+    .second {
+        width: 50%;
+        rotate: -8deg;
+        border-color: #FFFFFF;
+        position: relative;
+        top: 10px;
+        bottom: 10px;
+        right: -90px;
+     
+    }
+    
+    
+    .proced-clinic {
+        width: 5px;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: center;
+        align-items: baseline;
+    }
+    
+    .proced-clinic h2 {
+        gap: 2rem;
+        margin: 5px;
+        margin-top: 15px;
+    }
+    
+    .proced-clinic h3 {
+        display: flex;
+        text-align: justify;
+    }
+    
+    .background-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #C6AC8D;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    
+    .background-img img {
+        width: 30px;
+        height: 30px;
+        background: none;
+    }
 }

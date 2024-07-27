@@ -22,7 +22,7 @@ html {
 /* Estilização para o paralax quando tivermos a imagem. */
 /* MODIFICAÇÕES DO HEADER */
 header {
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.634);
     display: flex;
@@ -36,13 +36,13 @@ header {
 header h1 {
     margin-left: 30px;
     color: #caa8cf;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 nav a {
     margin-right: 30px;
     color: #caa8cf;
-    font-size: 22px;
+    font-size: 15px;
 }
 
 nav a:last-child {
@@ -55,7 +55,7 @@ nav a:last-child {
 nav a:hover {
     margin-right: 30px;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     transition: 0.8s;
 }
 
@@ -96,7 +96,7 @@ nav a:last-child:hover {
 }
 
 .mission p {
-    font-size: 52px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -113,18 +113,18 @@ nav a:last-child:hover {
 }
 
 #sobre h2 {
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
 }
 
 #sobre h3 {
-    font-size: 26px;
+    font-size: 18px;
     text-align: center;
 }
 
 #sobre p {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #sobre h3,
@@ -133,8 +133,8 @@ nav a:last-child:hover {
 }
 
 .background-sbr {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     margin: 30px;
     border-radius: 50%;
     background: #C6AC8D;
@@ -362,7 +362,7 @@ nav a:last-child:hover {
 }
 
 #clinic h3 {
-    font-size: 20px;
+    font-size: 18px;
     color: #D9D9D9
 }
 
